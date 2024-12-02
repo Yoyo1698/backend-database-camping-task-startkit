@@ -292,7 +292,7 @@ select
         WHERE "COURSE_BOOKING".user_id = (SELECT id FROM "USER" WHERE name = '王小明')
           AND "COURSE_BOOKING".status != '課程已取消'
     )
-  ) AS 剩餘可用堂數
+  ) AS remaining_credit
 from "CREDIT_PURCHASE"
 inner join "COURSE_BOOKING"
 on "COURSE_BOOKING".user_id = "CREDIT_PURCHASE".user_id
