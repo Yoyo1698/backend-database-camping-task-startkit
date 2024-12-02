@@ -18,9 +18,9 @@ INSERT INTO
   "USER"(name, email, role)
 VALUES
   ('李燕容', 'lee2000@hexschooltest.io', 'USER'),
-  ('王小明', ' wXlTq@hexschooltest.io', 'USER'),
+  ('王小明', 'wXlTq@hexschooltest.io', 'USER'),
   ('肌肉棒子', 'muscle@hexschooltest.io', 'USER'),
-  ('好野人', ' richman@hexschooltest.io', 'USER'),
+  ('好野人', 'richman@hexschooltest.io', 'USER'),
   ('Q太郎', 'starplatinum@hexschooltest.io', 'USER'),
   ('透明人', 'opcatiy0@hexschooltest.io', 'USER');
 
@@ -184,7 +184,7 @@ INSERT INTO "COURSE" (user_id, skill_id, name, start_at, end_at, max_participant
       '2024-11-25 14:00:00',
       '2024-11-25 16:00:00',
       10,
-      ' https://test-meeting.test.io'
+      'https://test-meeting.test.io'
     );
     
 
